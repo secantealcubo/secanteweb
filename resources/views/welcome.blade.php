@@ -114,7 +114,8 @@
                     <div class="col-md-12">
                         <div class="fix-width">
                             <div class="row">
-                                <div class="col-md-5 demo-text">"¿Internet? ¿Todavía anda eso por ahí?"-- Homer Simpson“Las cosas buenas llegan a los que saben esperar.”</small>
+                                <div class="col-md-5 demo-text">
+                                    <small class="text-primary">"¿Internet? ¿Todavía anda eso por ahí?"-- Homer Simpson“</small>
                                     <h2 class="text-title">MOTIVACIÓN</h2>
                                     <p class="m-t-30 m-b-30">Extremadamente motivado para desarrollar constantemente mis habilidades y crecer profesionalmente. Confío en mi capacidad para proponer ideas interesantes.</p>
                                 </div>
