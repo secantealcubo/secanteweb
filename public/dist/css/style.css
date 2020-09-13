@@ -7839,7 +7839,7 @@ Megamenu
 }
 .footer {
     background: #474d5d;
-    padding: 30px 120px 30px;
+    padding: 80px 0 30px;
     color: #868c9e;
 }
 .footer ul.list-icons {
@@ -7863,7 +7863,7 @@ Megamenu
 .footer .sub-footer {
     margin-top: 60px;
     border-top: 1px solid #4F5467;
-    /*padding: 30px 0 0;*/
+    padding: 30px 0 0;
 }
 .custom-btn {
     border: 2px solid #adb5bd;

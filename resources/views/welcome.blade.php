@@ -9,19 +9,38 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicon.png')}}">
-    <title>Elite Admin Template - Landing Page</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('dist/images/logo.png')}}">
+    <title>Secanteweb</title>
     <!-- This page CSS -->
     <link href="{{asset('assets/node_modules/owl.carousel/owl.carousel.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('assets/node_modules/owl.carousel/owl.theme.default.css')}}" rel="stylesheet" type="text/css" />
     <!-- Custom CSS -->
     <link href="{{asset('dist/css/style.css')}}" rel="stylesheet">
+    <!--Font awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<style>
+    .parallax {
+  /* The image used */
+ background-image: url("dist/images/banner-long2.png");
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    .icon-size{
+    font-size: 80px;
+}
+</style>
 </head>
 
 <body>
@@ -33,13 +52,13 @@
                     <div class="header">
                         <nav class="navbar navbar-expand-md navbar-light bg-white">
                             <a class="navbar-brand" href="#">
-                            <img src="dist/images/elite-admin-logo.png" alt="logo">
+                            <img src="{{asset('dist/images/secantelogoweb.png')}}" alt="logo">
                         </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
+                                <!--<ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#myfeatures">Features</a>
                                     </li>
@@ -49,7 +68,7 @@
                                     <li class="nav-item">
                                         <a href="https://goo.gl/ZmMJ37" class="btn btn-primary btn-rounded cs-btn" target="_blank">BUY NOW</a>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </div>
                         </nav>
                     </div>
@@ -64,51 +83,42 @@
                                 <h1 class="banner-title">The Ultimate Admin Dashboard Web App Kit</h1>
                             </div>
                             <span class="banner-small-text">
-                                    <b>Bootstrap4</b> Cryptocurrency, Hospital, Music, University, Ecommerece, CRM, Real Estate &amp; 14 Other Demos included. 
-                                    <b>Light &amp; Dark Versions</b>, Landing Page, 
-                                    <b>90+</b> Integrated Plugins, 
-                                    <b>2000+</b> Pages, 3 Step Registration, 
-                                    <b>3000+</b> Font Icons, 
-                                    <b>500+</b> UI Components &amp; more...
-                                </span>
+                                Soy realmente un apasionado de la programación, autodidacta y siempre con ambición por querer aprender más.<br>El programador perfecto es quien estaá en constante evolución y aprendiendo continuamente.
+                            </span>
                             <div class="btn-box">
-                                <a href="#choose-demo" class="btn btn-outline-secondary btn-rounded btn-lg custom-btn text-dark m-t-10">View all demos</a>
-                                <a href="https://goo.gl/ZmMJ37" class="btn btn-outline-secondary btn-rounded btn-lg custom-btn text-dark m-t-10">Buy elite now</a>
+                                <!--<a href="#choose-demo" class="btn btn-outline-secondary btn-rounded btn-lg custom-btn text-dark m-t-10">View all demos</a>
+                                <a href="https://goo.gl/ZmMJ37" class="btn btn-outline-secondary btn-rounded btn-lg custom-btn text-dark m-t-10">Buy elite now</a>-->
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <a href="#choose-demo"><img src="dist/images/banner-long2.jpg" class="img-responsive"></a>
-                        </div>
-                    </div>
+                <div class="parallax">
                 </div>
+                <br>
                 <div class="row" id="choose-demo">
-                    <div class="col-lg-12">
-                        <div class="light-blue-bg">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <div class="">
                             <div class="text-center">
-                                <small class="text-primary">BEST ADMIN TEMPLATE OF 2018 </small>
-                                <h2 class="text-title">Simple & easy to customize, no other headaches</h2>
-                                <p>Don’t go by our Words, checkout our awesome demos and verify yourself.
-                                    <br/>Save 1000s of hours of designing and coding work as we already did that for you.</p>
+                                <small class="text-primary">"Primero resuelve el problema. Entonces, escribe el código"-- John Johnson</small>
+                                <h2 class="text-title">SOLVENTAR UN PROBLEMA</h2>
+                                <p>Escribir código consiste en detectar y resolver problemas. La programación siempre tiene el objetivo de aportar soluciones a necesidades del cliente o del usuario.
+                                <br>
+                                Para desarrollar esta habilidad sólo se necesita práctica,mucha práctica. Enfrentar un problema de código desde múltiples perspectivas ayuda a pensar fuera de la caja para llegar a la mejor solución para resolverlo.</p>
                             </div>
-
                         </div>
                     </div>
+                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row m-t-40" id="myfeatures">
                     <div class="col-md-12">
                         <div class="fix-width">
                             <div class="row">
-                                <div class="col-md-5 demo-text">
-                                    <small class="text-primary">LOTS OF ELEMENTS ADDED</small>
-                                    <h2 class="text-title">Responsive Web UI Kit for all your Needs</h2>
-                                    <p class="m-t-30 m-b-30">You will get almost everything you need. We have added all possible widgets to make your life easier with easy editing. Check them out.</p>
-                                    <a class="btn btn-outline-secondary btn-rounded btn-md custom-btn" href="http://eliteadmin.themedesigner.in/demos/bt4/inverse/widgets.html" target="_blank">Check all widgets</a>
+                                <div class="col-md-5 demo-text">"¿Internet? ¿Todavía anda eso por ahí?"-- Homer Simpson“Las cosas buenas llegan a los que saben esperar.”</small>
+                                    <h2 class="text-title">MOTIVACIÓN</h2>
+                                    <p class="m-t-30 m-b-30">Extremadamente motivado para desarrollar constantemente mis habilidades y crecer profesionalmente. Confío en mi capacidad para proponer ideas interesantes.</p>
                                 </div>
-                                <div class="col-md-7 auto-img"><img src="dist/images/responsive.jpg" /></div>
+                                <div class="col-md-7 auto-img"><img src="{{asset('dist/images/responsive.jpg')}}" /></div>
                             </div>
                         </div>
                     </div>
@@ -119,41 +129,11 @@
                             <div class="row">
                                 <div class="col-md-7 auto-img "><img src="dist/images/ecommerce.jpg" class="pull-right" /></div>
                                 <div class="col-md-5 demo-text">
-                                    <small class="text-primary">LOTS OF ELEMENTS ADDED</small>
-                                    <h2 class="text-title">eCommerce Dashboard <br/>Option Included</h2>
-                                    <p class="m-t-30 m-b-30">Yes, We have also added eCommerce Dashboard option. It also has relevant sections, like List of Products, Total Earnings and & Status.</p>
-                                    <a class="btn btn-outline-secondary btn-rounded btn-md custom-btn" href="http://eliteadmin.themedesigner.in/demos/bt4/ecommerce/index.html" target="_blank">Check  eCommerce Demo</a>
+                                    <small class="text-primary">"Iterar es humano, 'recursivar' es divino" -- L. Peter Deutsch</small>
+                                    <h2 class="text-title">TRABAJO EN EQUIPO</h2>
+                                    <p class="m-t-30 m-b-30">Trabajar en equipo es muy enriquecedor, pero es normal que surjan conflictos. Si en vez de intentar eludirlos, sabemos gestionarlos desde la empatía, la asertividad y la responsabilidad, ganaremos mucho en experiencia</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m-t-40">
-                    <div class="col-md-12">
-                        <div class="fix-width">
-                            <div class="row">
-                                <div class="col-md-5 demo-text">
-                                    <small class="text-primary">LOTS OF ELEMENTS ADDED</small>
-                                    <h2 class="text-title">Your MailBox Section is <br/>ready to use</h2>
-                                    <p class="m-t-30 m-b-30">Yup, Mail Box Application is added with Elite Admin - Responsive Kit. We have included templates for Inbox, Compose Mail, Mail detail.</p>
-                                    <a class="btn btn-outline-secondary btn-rounded btn-md custom-btn" href="http://eliteadmin.themedesigner.in/demos/bt4/inverse/inbox.html" target="_blank">Check Mailbox</a>
-                                </div>
-                                <div class="col-md-7 auto-img"><img src="dist/images/inbox.jpg" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m-t-40">
-                    <div class="col-md-12">
-                        <div class="fix-width">
-                            <div class="text-center">
-                                <small class="text-primary">LOTS OF ELEMENTS ADDED</small>
-                                <h2 class="text-title">7 Different Variations for Showcasing <br> Your Header & Navigation</h2>
-                                <p class="m-t-10 m-b-30 text-center">We have added 7 different styles for Header and Navigations. Added Horizontal and Vertical,
-                                    <br> both types of Navigation & Mega Menu. recenly added menu like wordpress.
-                                </p>
-                            </div>
-                            <div class="col-md-12 m-t-40 text-center"><img src="dist/images/navigations.jpg" class="img-responsive" /></div>
                         </div>
                     </div>
                 </div>
@@ -161,40 +141,42 @@
                     <div class="col-md-12">
                         <div class="fix-width">
                             <div class="text-center">
-                                <small class="text-primary">ALMOST COVERED EVERYTHING</small>
-                                <h2 class="text-title">Other Amazing Features & <br/>Flexibility Provided</h2>
+                                <small class="text-primary">"No te preocupes si no funciona bien. Si todo estuviera correcto, serías despedido de tu trabajo" -- Ley de Mosher de la Ingeniería del Software</small>
+                                <h2 class="text-title">INSTRUMENTOS, SOFTWARE Y MÁS...</h2>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="fix-width">
+                </div>
+                <div class="fix-width">
                     <div class="row m-t-40 v-top">
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/color-skim.png" />
-                            <h4 class="text-title m-t-30">9 Color Schemes</h4>
-                            <p>We have included 9 pre-defined color schemes with Elite Admin.</p>
+                            <i class="fa fa-file-code-o icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">LARAVEL PHP</h4>
+                            <p>Mi framework favorito para el desarrollo.</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/sidebars.png" />
-                            <h4 class="text-title m-t-30">Dark & Light Sidebar</h4>
-                            <p>Included Dark and Light Sidebar for getting desire look and feel.</p>
+                            <i class="fa fa-code icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">Bootstrap 4</h4>
+                            <p>Todos los desarrollos estan trabajados en Bootstrap 4, esto ayuda a que sea 100% responsivo.</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/pages.png" />
-                            <h4 class="text-title m-t-30">2000+ Page Templates</h4>
-                            <p>Yes, we have 20 demos & 100+ Pages per demo to make it easier.</p>
+                            <i class="fa fa-github icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">GitHub</h4>
+                            <p>Manejo de proyectos y controlo versiones en Git Hub para el correcto seguimiento del mismo.</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/ui-component.png" />
-                            <h4 class="text-title m-t-30">1000+ UI Components</h4>
-                            <p>Almost 1000+ UI Components being given with Elite Admin Pack.</p>
+                           <i class="fa fa-mobile icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">Full Responsivo</h4>
+                            <p>Todas las páginas son 100% adaptables para cualquier dispositivo.</p>
                         </div>
                         <!-- /.col -->
                     </div>
@@ -203,62 +185,30 @@
                     <div class="row m-t-40 v-top">
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/widgets.png" />
-                            <h4 class="text-title m-t-30">Lots of Widgets</h4>
-                            <p>Wide range of Widgets are available with Elite Admin Package.</p>
+                            <i class="fa fa-pencil icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">Desarrollos customizables</h4>
+                            <p>Todo desarrollo es y será customizado para el usuario o cliente.</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/bootstraps.png" />
-                            <h4 class="text-title m-t-30">Bootstrap 4x</h4>
-                            <p>Its been made with Bootstrap 4 and full responsive layout.</p>
+                            <i class="fa fa-google icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">¿Google?</h4>
+                            <p>Nuestro mejor aliado.</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/fonts.png" />
-                            <h4 class="text-title m-t-30">3000+ Font Icons</h4>
-                            <p>Lots of Icon Fonts are included here in the package of Elite Admin.</p>
+                            <i class="fa fa-rebel icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">Alianza Rebelde</h4>
+                            <p>"Debes desaprender lo que has aprendido."--Yoda</p>
                         </div>
                         <!-- /.col -->
                         <!-- .col -->
                         <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/respo.png" />
-                            <h4 class="text-title m-t-30">Fully Responsive</h4>
-                            <p>All the layout of Elite Admin is Fully Responsive and widely tested.</p>
-                        </div>
-                        <!-- /.col -->
-                    </div>
-                </div>
-                <div class="fix-width">
-                    <div class="row m-t-40 v-top">
-                        <!-- .col -->
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/sass.png" />
-                            <h4 class="text-title m-t-30">SassBase CSS</h4>
-                            <p>Our Css is written Sass Base to make your life easier.</p>
-                        </div>
-                        <!-- /.col -->
-                        <!-- .col -->
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/customized.png" />
-                            <h4 class="text-title m-t-30">Easy to Customize</h4>
-                            <p>Customization will be easy as we understand your pain.</p>
-                        </div>
-                        <!-- /.col -->
-                        <!-- .col -->
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/charts.png" />
-                            <h4 class="text-title m-t-30">Lots of Chart Options</h4>
-                            <p>You name it and we have it, Yes lots of variations for Charts.</p>
-                        </div>
-                        <!-- /.col -->
-                        <!-- .col -->
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <img src="dist/images/multi-upload.png" />
-                            <h4 class="text-title m-t-30">Mutiple File Uploads</h4>
-                            <p>You can upload multiple files with our Multiple selector.</p>
+                            <i class="fa fa-gamepad icon-size" aria-hidden="true"></i>
+                            <h4 class="text-title m-t-30">Gamer</h4>
+                            <p>Juego videojuegos cómo LOL y GTA V.</p>
                         </div>
                         <!-- /.col -->
                     </div>
@@ -268,9 +218,8 @@
                 </div>
 
 
-                <footer class="footer">
+                <footer class="footer text-center">
                     <span>Copyright 2020. Todos los derechos reservados <a class="text-white" href="https://secanteweb.com" target="_blank">Secanteweb</a></span>
-                    <span class="pull-right">Diseñado y desarrollado por Reinaldo Zerpa</span>
                 </footer>
             </div>
         </div>
@@ -290,7 +239,7 @@
 <script>
 $(function() {
     $(".banner-title").typed({
-        strings: ["Cryptocurrency Demo Added","Multipurpose Admin template with Bootstrap 4", "Build Your backend in No-Time for any plateform", "Powerfull webapp kit with countless features"],
+        strings: ["Desarrollo Web","Pasión proactiva", "Adaptación al cambio"],
         typeSpeed: 100,
         loop: true
     });
